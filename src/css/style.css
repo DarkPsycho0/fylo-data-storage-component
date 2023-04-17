@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100% 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-one {
+    background-color: hsl(228, 56%, 26%);
+    padding: 50px;
+    padding-right: 120px;
+    border-radius: 10px;
+    border-top-right-radius: 120px;
+    margin-right: 50px;
+}
+
+.box-one .logo {
+    margin-bottom: 15px;
+}
+
+.box-one .icons {
+    display: flex;
+}
+
+.box-one .icon {
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    margin: 10px 20px 10px 0;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-two {
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.box-two p {
+    color: hsl(243, 100%, 93%);
+    margin-bottom: 20px;
+}
+
+.box-two span {
+    font-weight: 700;
+}
+
+.box-two .bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 26px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.box-two .insideBar {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 81.5%;
+    height: 18px;
+    margin-left: 3px;
+    background: rgb(255, 163, 153);
+    background: linear-gradient(90deg, rgba(255, 163, 153, 1) 0%, rgba(255, 77, 151, 1) 100%);
+    border-radius: 20px;
+}
+
+.box-two .insideBar .whiteball {
+    background-color: hsl(243, 100%, 93%);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-right: 3px;
+}
+
+.limit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.limit p {
+    font-weight: 700;
+}
+
+.left-box {
+    position: absolute;
+    top: -30%;
+    right: 6%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.left-box span {
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.left-box p {
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.left-box .arrow {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid hsl(0, 0%, 100%);
+}
