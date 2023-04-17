@@ -1,0 +1,46 @@
+@media(max-width:768px) {
+    body {
+        background-image: url(../images/bg-mobile.png);
+        background-size: 100% 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box-one {
+        margin-right: 0;
+        padding: 30px;
+        padding-right: 120px;
+    }
+
+    .box-two {
+        width: 340px;
+        margin-top: 20px;
+    }
+
+    .left-box {
+        top: auto;
+        right: 25%;
+        bottom: -40px;
+    }
+
+    .left-box .arrow {
+        display: none;
+    }
+
+    .left-box span {
+        font-size: 32px;
+    }
+}
+
+@media(max-width:320px) {
+    .box-one {
+        padding: 20px;
+        padding-right: 90px;
+    }
+
+    .box-two {
+        width: 300px;
+    }
+}
